@@ -163,7 +163,8 @@ section a {
   padding: 20px;
   box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
     0 0 2px rgb(0 0 0 / 7%);
-  position: fixed;
+  position: sticky;
+  top: 0;
 }
 
 .narbar-container {
@@ -302,6 +303,7 @@ section a {
 .box {
   margin-bottom: 30px;
 }
+
 .box-inner {
   max-width: 700px;
   margin: 0 auto;
